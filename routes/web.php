@@ -23,6 +23,9 @@ Route::get('login', function () {
     return view('login');
 });
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Route::get('/profile', function () {
     return view('profile');
