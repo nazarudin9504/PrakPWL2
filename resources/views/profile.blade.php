@@ -6,6 +6,10 @@
     <title>Profile</title>
 </head>
 <body>
+    <div>
+        <img src="{{asset('images/Profile.jpg')}}"
+        alt="..." width="150"
+    </div>
     <h1>Username</h1>
     <p>Biography</p>
 </body>
