@@ -17,6 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< Updated upstream
+=======
+Route::get('login', function () {
+    return view('login');
+});
+
+>>>>>>> Stashed changes
 Route::get('/profile', function () {
     return view('profile');
 });
