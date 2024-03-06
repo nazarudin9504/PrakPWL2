@@ -18,4 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/profile', [ProfileController::class, 'show'])->name('profile');
+Route::get('/profile', function () {
+    return view('profile');
+});
